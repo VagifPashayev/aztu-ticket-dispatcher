@@ -1,0 +1,11 @@
+generated_utc=2026-11-14T11:45:22.852362800Z
+java.version=27.0.1.0.3
+java.vm.name=OpenJDK 64-Bit Server VM
+os.name=Windows 11
+os.arch=amd64
+available.processors=16
+seed=20262+n+round
+mode=assignment
+rounds=5
+warmups=2
+batch=128

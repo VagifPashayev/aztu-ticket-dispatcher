@@ -60,7 +60,10 @@ public final class Benchmarks {
             case "remove_back" -> { for(int i=0;i<batch;i++) expectedSum+=n-1-i; }
             case "search_hit" -> { for(Integer query:queries) expectedSum+=query; }
             case "search_miss" -> expectedSum=-batch;
-            default -> { sum=data.get(0)+data.get(data.size()-1)+data.size(); expectedSum=sum; }
+            case "grow_append" -> { sum=(long)data.get(0)+data.get(data.size()-1)+data.size(); expectedSum=2L*n-1; }
+            case "append" -> { sum=(long)data.get(0)+data.get(data.size()-1)+data.size(); expectedSum=2L*(n+batch)-1; }
+            case "insert_front" -> { sum=(long)data.get(0)+data.get(data.size()-1)+data.size(); expectedSum=3L*n+2L*batch-2; }
+            default -> throw new IllegalArgumentException(operation);
         }
         if(sum!=expectedSum) throw new IllegalStateException("Incorrect operation result");
         blackhole=sum;

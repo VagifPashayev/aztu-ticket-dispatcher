@@ -1,0 +1,31 @@
+Benchmark: 2 warm-up + 5 measured rounds; batch=128
+Median ns/op (local educational measurements):
+n=1000  grow_append   | FixedArray=44.1 | DynamicArray=46.7 | SinglyList=35.6 | DoublyList=33.6
+n=1000  append        | FixedArray=45.3 | DynamicArray=48.4 | SinglyList=35.2 | DoublyList=53.1
+n=1000  insert_front  | FixedArray=57.8 | DynamicArray=57.8 | SinglyList=29.7 | DoublyList=36.7
+n=1000  remove_front  | FixedArray=76.6 | DynamicArray=81.3 | SinglyList=45.3 | DoublyList=18.0
+n=1000  remove_back   | FixedArray=28.1 | DynamicArray=25.0 | SinglyList=2407.8 | DoublyList=17.2
+n=1000  search_hit    | FixedArray=2921.9 | DynamicArray=2306.3 | SinglyList=2246.1 | DoublyList=3641.4
+n=1000  search_miss   | FixedArray=371.1 | DynamicArray=399.2 | SinglyList=6710.9 | DoublyList=1592.2
+n=10000 grow_append   | FixedArray=9.6 | DynamicArray=14.1 | SinglyList=13.9 | DoublyList=14.4
+n=10000 append        | FixedArray=11.7 | DynamicArray=10.9 | SinglyList=10.9 | DoublyList=12.5
+n=10000 insert_front  | FixedArray=293.8 | DynamicArray=226.6 | SinglyList=10.9 | DoublyList=15.6
+n=10000 remove_front  | FixedArray=216.4 | DynamicArray=219.5 | SinglyList=7.8 | DoublyList=11.7
+n=10000 remove_back   | FixedArray=26.6 | DynamicArray=26.6 | SinglyList=12247.7 | DoublyList=20.3
+n=10000 search_hit    | FixedArray=2315.6 | DynamicArray=2423.4 | SinglyList=8142.2 | DoublyList=8407.8
+n=10000 search_miss   | FixedArray=4381.3 | DynamicArray=4496.9 | SinglyList=15655.5 | DoublyList=15019.5
+n=50000 grow_append   | FixedArray=7.7 | DynamicArray=10.7 | SinglyList=11.0 | DoublyList=12.4
+n=50000 append        | FixedArray=8.6 | DynamicArray=8.6 | SinglyList=10.9 | DoublyList=10.2
+n=50000 insert_front  | FixedArray=2228.1 | DynamicArray=2225.8 | SinglyList=7.0 | DoublyList=18.0
+n=50000 remove_front  | FixedArray=2519.5 | DynamicArray=2403.9 | SinglyList=12.5 | DoublyList=14.8
+n=50000 remove_back   | FixedArray=28.1 | DynamicArray=24.2 | SinglyList=53618.8 | DoublyList=14.1
+n=50000 search_hit    | FixedArray=12410.2 | DynamicArray=11659.4 | SinglyList=40112.5 | DoublyList=41110.2
+n=50000 search_miss   | FixedArray=24093.0 | DynamicArray=24203.9 | SinglyList=78791.4 | DoublyList=83290.6
+BST: height counts nodes (empty=0); ordinary unbalanced tree.
+BST n=1000 sorted height=1000 | mean comparisons=494.91
+BST n=1000 random height=21 | mean comparisons=12.61
+BST n=3000 sorted height=3000 | mean comparisons=1589.51
+BST n=3000 random height=26 | mean comparisons=13.91
+BST n=6000 sorted height=6000 | mean comparisons=3231.03
+BST n=6000 random height=29 | mean comparisons=15.55
+CSV saved: benchmarks\results | checksum=413444

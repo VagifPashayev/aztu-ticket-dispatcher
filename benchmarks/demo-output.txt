@@ -1,0 +1,18 @@
+=== TICKET DISPATCHER: real demo ===
+CREATE: #1 [NEW] Printer işləmir
+CREATE: #2 [NEW] Şəbəkə bağlantısı yoxdur
+CREATE: #3 [NEW] Monitor problemi
+QUEUE normal: #1 [PLANNED] Printer işləmir
+QUEUE urgent -> DEQUE front: #2 [PLANNED] Şəbəkə bağlantısı yoxdur
+QUEUE normal -> DEQUE back: #3 [PLANNED] Monitor problemi
+PROCESS: #2 [DONE] Şəbəkə bağlantısı yoxdur
+EDIT: #1 [PLANNED] Printer: kabel yoxlanılsın
+STACK undo: #1 [PLANNED] Printer işləmir
+HASH find(1): #1 [PLANNED] Printer işləmir
+DELETE planned #3: #3 [DELETED] Monitor problemi
+PROCESS: #1 [DONE] Printer işləmir
+PROCESS (deleted entry skipped): null
+BST ordered, height=2
+  #1 [DONE] Printer işləmir
+  #2 [DONE] Şəbəkə bağlantısı yoxdur
+HASH collision: capacity=4, chain=3, get(9)=C
