@@ -189,9 +189,3 @@ Sıralanmış girişdə hər yeni açar əvvəlkindən böyük olur və sağ bud
 Sıralanmış ağacın qurulması da daha uzun çəkir: hər yeni açar üçün getdikcə uzanan yol keçilir. Ayrı bir əməliyyatın vaxtı O(h), bütün sıralanmış ağacın qurulması isə O(n²) olur. Təsadüfi giriş bu sınaqda daha qısa yollar yaradıb. Ağacın insert, search və delete əməliyyatları ayrıca test olunur; vaxt cədvəli qurma və uğurlu axtarışı ölçür.
 
 [Bütün BST raundları](benchmarks/results/bst-rounds.csv) · [Ölçmə metodunun texniki detalları](docs/benchmark-method.md)
-
-## Tələblərin yoxlanması
-
-14 noyabr 2026-da kod, testlər, CSV-lər və sənədlər tapşırığın beş texniki hissəsi ilə yenidən tutuşdurulub. Beş hissənin hamısı proqramda var. Hansı metodun hansı tələbi qarşıladığı [ətraflı yoxlama cədvəlində](docs/coverage.md) göstərilib.
-
-Təqdimat ayrıca hazırlanmalıdır. Tapşırığın təhvil hissəsinə görə hər komanda üzvü təqdimatı və kodu və ya GitHub keçidini öz hesabından yükləməlidir; bu addımlar hələ tamamlanmayıb.

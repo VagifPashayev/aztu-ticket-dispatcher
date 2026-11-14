@@ -1,6 +1,6 @@
 # Tələblərin yoxlanması
 
-Yenidən yoxlama: **14 noyabr 2026**. Əsas: KOICA/LMS-də oxunmuş Sərbəst İş №1 şərti, proqram kodu, JUnit testləri və saxlanılan ölçmələr. Beş texniki hissənin hamısı yerinə yetirilib; təqdimat və fərdi yükləmə ayrıca qalıb.
+Yenidən yoxlama: **14 noyabr 2026**. Əsas: KOICA/LMS-də oxunmuş Sərbəst İş №1 şərti, proqram kodu, JUnit testləri və saxlanılan ölçmələr. Beş texniki hissənin hamısı yerinə yetirilib; təqdimat hazırdır, fərdi yükləmə ayrıca qalıb.
 
 ## Beş texniki hissə
 
@@ -23,10 +23,10 @@ CSV keçidləri: [420 ilkin ölçmə](../benchmarks/results/sequence-rounds.csv)
 | Kiçik işlək konsol tətbiqi | **Tamamdır.** `Main`, interaktiv əmrlər, `--demo` və `--benchmark`; Maven ilə JAR yığılır. |
 | Komanda 2–4 nəfər | **Tamamdır.** README-də istifadəçinin bildirdiyi dörd komanda üzvü var. Fərdi töhfə bölgüsü təsdiqlənməyib. |
 | Kod və ya layihə üçün GitHub keçidi | **Hazırdır.** [Açıq repozitoriya](https://github.com/VagifPashayev/aztu-ticket-dispatcher). |
-| Təqdimatda funksiyalar, struktur seçiminin səbəbi və ölçmələr | **Qalıb.** Materiallar README-də və ekran görüntülərində var, təqdimat faylı hələ hazırlanmayıb. |
+| Təqdimatda funksiyalar, struktur seçiminin səbəbi və ölçmələr | **Hazırdır.** [18 slaydlıq təqdimat](presentation/Ticket_Dispatcher_M656aS.pptx) funksiyaları, struktur seçimini, kod fraqmentlərini və ölçmələri göstərir. |
 | Hər üzvün öz hesabından təqdimat və kod/GitHub keçidini yükləməsi | **Qalıb.** Bu layihə hazırlanarkən KOICA-ya göndərilməyib. |
 
-Yekun: **proqramın beş texniki bəndi tamamdır; tapşırığın bütövlükdə təhvil verilməsi hələ tamamlanmayıb.** Bu yoxlama qiymət və ya müəllimin qəbul qərarı deyil.
+Yekun: **proqramın beş texniki bəndi tamamdır; təqdimat da hazırdır, hər iştirakçının öz hesabından təhvil verməsi hələ tamamlanmayıb.** Bu yoxlama qiymət və ya müəllimin qəbul qərarı deyil.
 
 ## Nəzəri mürəkkəblik
 

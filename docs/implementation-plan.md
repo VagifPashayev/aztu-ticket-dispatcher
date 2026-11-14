@@ -7,4 +7,4 @@
 - [x] IntelliJ-də real icra ekran görüntüləri və yekun yoxlama.
 - [x] Açıq GitHub repozitoriyasının dərc edilməsi.
 
-Təqdimat ayrıca hazırlanacaq.
+Təqdimat və PDF `docs/presentation` qovluğundadır.
