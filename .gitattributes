@@ -1,4 +1,8 @@
 * text=auto
+*.pdf binary
+*.pptx binary
+*.jpg binary
+*.png binary
 mvnw text eol=lf
 *.sh text eol=lf
 *.cmd text eol=crlf
