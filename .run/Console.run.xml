@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Console" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="az.edu.aztu.ticketdesk.Main" />
+    <module name="ticket-dispatcher" />
+    <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <method v="2"><option name="Make" enabled="true" /></method>
+  </configuration>
+</component>
