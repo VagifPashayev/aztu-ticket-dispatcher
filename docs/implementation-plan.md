@@ -5,6 +5,6 @@
 - [x] Sorğunun həyat dövrü, undo, konsol əmrləri və demo.
 - [x] Təkrarlanan ölçmələr və CSV ixracı.
 - [x] IntelliJ-də real icra ekran görüntüləri və yekun yoxlama.
-- [ ] Açıq GitHub repozitoriyasının dərc edilməsi.
+- [x] Açıq GitHub repozitoriyasının dərc edilməsi.
 
 Təqdimat ayrıca hazırlanacaq.
